@@ -19,7 +19,7 @@ There is no question about promises being convenient in many simple situations. 
 
 ## We must acknowledge promise was a wrong choice as primitive and move on
 
-The fact that promises are simple and convenient in many simple cases doesn't make them a good choice as primitive replacing callbacks:
+The fact that promises are simple and convenient in many simple cases doesn't make them a good choice as primitives replacing callbacks:
 
 https://github.com/promises-aplus/promises-spec/issues/94#issuecomment-553767177
 > 1. The things done wrong here are fundamental to programming/computation itself, so there will never be a time when it is not wrong. And probably never be a time when it doesn't adversely effect programming in Javascript/Typescript.
