@@ -9,7 +9,7 @@ In JavaScript, where functions are variadic by design, [this pattern can be made
 
 ## The so-called "callback hell" is an issue with Node API, not callbacks
 
-The Node API is a very specific way of using callbacks. Node API callbacks are mixed along with other arguments with no clean separation between in- and outgoing data. Node API callbacks receive the error argument ahead of others making it less convenient to defer the error handling. This lack of convenience is very specific to that particular style though.
+The Node API is a very specific way of using callbacks. Node API callbacks are mixed along with other arguments with no clean separation between in- and outgoing data. Node API callbacks receive the error argument ahead of others making it less convenient to defer the error handling. This lack of convenience is very specific to that particular style though that can be [easily fixed](https://github.com/dmitriz/cpsfy/blob/master/DOCUMENTATION.md#what-about-callback-hell).
 
 
 ## JS Promises are really a collection of opinionated convenience methods
